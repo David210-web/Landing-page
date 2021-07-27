@@ -1,0 +1,101 @@
+@media (max-width: 576px) { 
+	#home,#beneficios,#testimonios{
+		height: fit-content;
+	}
+
+ 	.container .row .col-12 .img-contenedor{
+    width: 75%;
+    height: 30rem;
+   
+}
+
+.container .row .col-12 .img-contenedor img{
+    width: 100%;
+    height: 100%;
+}
+
+.container .row .col-12 div h2{
+	    width: 90%;
+	    margin: 15px auto;
+	    font-size: 3.0rem !important; font-weight:bolder;
+	}
+
+.container .row .col-12 div p{
+	    width: 90%;
+	    margin: 15px auto;
+	    font-size: 1.6rem !important; 
+	}
+
+	.container .row .col-12 div .btn{
+	    font-size: 1.5rem;
+	    padding: 1rem 1.4rem;
+	    margin: 24px 0;
+	}
+
+	#beneficios .container .row .col-12 .beneficios-box{
+    margin: 15px auto;
+	}
+
+ }
+
+
+@media (max-width: 768px) { 
+	#beneficios,#testimonios,#contactos{
+		height: fit-content;
+	}
+
+	#beneficios .container .row .col-12 .img-container{
+    width: 90%;
+    height: 150px;
+}
+
+#beneficios .container .row .col-12 .img-container img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+	#testimonios .container .row .col-12{
+		margin: 20px 0;
+	}
+
+	#contactos .container .row .col-12{
+		margin: 20px 0;
+	}
+    
+}
+
+
+@media (max-width: 992px) { 
+
+	.container{
+		margin-top: 70px
+	}
+
+	.container .row .col-12 div h2{
+	    width: 90%;
+	    margin: 15px auto;
+	    font-size: 3.5rem; font-weight:bolder;
+	}
+
+	.container .row .col-12 div p{
+    	width: 90%;
+    	margin: 15px auto;
+    	font-size: 1.3rem; 
+	}
+
+	.container .row .col-12 div .btn{
+    	font-size: 1.5rem;
+    	padding: 1rem 1.4rem;
+	}
+ }
+
+
+@media (max-width: 1200px) {
+
+ }
+
+
+@media (max-width: 1400px) {
+
+ }
+

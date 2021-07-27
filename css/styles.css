@@ -1,0 +1,287 @@
+*{
+    font-family: poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+/*primera pantalla */
+
+#home{
+    width: 100%;
+    height: 100vh;
+}
+
+
+/*menu start*/
+
+
+.navbar-collapse{
+    flex-grow:  0 !important;
+}
+
+.navbar .container-fluid .navbar-brand{
+    font-size: 5.2rem;
+    color: #C904FA;
+    font-weight: bold;
+}
+
+.navbar .container-fluid .navbar-brand:hover{
+    font-size: 3.2rem;
+    color: #C904FA;
+    font-weight: bold;
+}
+
+.navbar .container-fluid .navbar-brand span{
+    color: #1790ff;
+}
+
+.navbar .navbar-collapse .nav-item .nav-link{
+    font-size: 1.8rem;
+    text-align: center;
+}
+/*menu end */
+
+
+.container .row .col-12 div{
+    width: 90%;
+    margin: auto;
+}
+
+.container .row .col-12 .img-contenedor{
+    width: 75%;
+    /*height: 50rem;*/
+    animation: float 2s linear infinite;
+}
+
+@keyframes float{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+}
+
+/*image container start */
+
+.container .row .col-12 .img-contenedor img{
+    width: 100%;
+    height: 100%;
+}
+
+/*image container end */
+/*text container - home part start */
+
+.container .row .col-12 div h2{
+    width: 90%;
+    margin: auto;
+    font-size: 4.5rem; font-weight:bolder;
+}
+
+.container .row .col-12 div p{
+    width: 90%;
+    margin: auto;
+    font-size: 1.8rem; 
+}
+
+.container .row .col-12 div .btn{
+    font-size: 2.3rem;
+    padding: 1rem 1.4rem;
+}
+
+/*text container - home part end */
+
+/*beneficents part */
+#beneficios{
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.beneficios-titulos{
+    font-size: 3rem;
+    color: #1799ff;
+    font-weight: bold;
+}
+
+#beneficios .container .row .col-12 .beneficios-box{
+    width: 90%;
+    margin: auto;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+#beneficios .container .row .col-12 .beneficios-box:hover{
+    transform: scale(1.1);
+}
+
+#beneficios .container .row .col-12 .img-container{
+    width: 90%;
+    height: 300px;
+}
+
+#beneficios .container .row .col-12 .img-container img{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+
+#beneficios .container .row .col-12 .beneficios-box .beneficios-text h2{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+#testimonios{
+    width: 100%;
+    height: 100vh;
+}
+
+.testimonios-box{
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#testimonios .container .row .testimonios-box .img-container{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#testimonios .container .row .testimonios-box .img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#testimonios h2{
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+#testimonios .container .row .testimonios-box .testimonios-text h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#testimonios .container .row .testimonios-box .testimonios-text .stars{
+    font-size: 1.7rem;
+}
+
+#testimonios .container .row .testimonios-box .testimonios-text p{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#contactos{
+    width: 100%;
+    height: 100vh;
+}
+
+
+#contactos h2{
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+#contactos .container .row{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+
+
+form{
+    width: 90%;
+    margin: auto;
+    border: 2px solid rgba(255, 255, 255, .2);
+    text-align: center;
+    border-radius: 24px;
+}
+
+form h2{
+    font-size: 3.2rem;
+    text-align: center;
+    padding: 20px 0;
+}
+
+form .input-box{
+    position: relative;
+}
+
+form input, form textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    color: white;
+    margin: 1.5rem 0;
+    padding: 1.5rem 0;
+    font-size: 1.7rem;
+    border-bottom: 1rem solid rgba(255, 255, 255, .1);
+    outline: none;
+}
+
+
+form textarea {
+    resize: none;
+    height: 13rem;
+}
+
+form input[type="submit"]{
+    width: 90%;
+    margin: 25px auto;
+    padding: 2rem 0;
+    font-size: 1.7rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+form label{
+    position: absolute;
+    top: 1.7rem; left: 0;
+    font-size: 1.7rem;
+    color: #ccc;
+}
+
+#contactos .container .row .col-12 form .input-box input:focus ~ label, #contactos .container .row .col-12 form .input-box textarea:focus ~ label{
+    top: -0.5rem;
+    font-size: 1.5rem;
+    color: #1799ff;
+}
+
+
+footer{
+    font-size: 1.5rem;
+    letter-spacing: 1.3px;
+    font-weight: 800;
+}
+
+/*fixed elements*/
+
+.whatsapp{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    bottom: 60px;
+    left: 60px;
+    background: #25D366;
+    font-size: 3.5rem;
+    color: #ffffff;
+    cursor: pointer;
+}
